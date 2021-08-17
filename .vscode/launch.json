@@ -1,0 +1,47 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "gm_calculator",
+      "cwd": "gm_calculator",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "gm_calculator (profile mode)",
+      "cwd": "gm_calculator",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "bytebank",
+      "cwd": "flutter\\bytebank",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "bytebank (profile mode)",
+      "cwd": "flutter\\bytebank",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "mercado",
+      "cwd": "flutter\\mercado",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "mercado (profile mode)",
+      "cwd": "flutter\\mercado",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    }
+  ]
+}
