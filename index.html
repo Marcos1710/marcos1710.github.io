@@ -1,237 +1,554 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Marcos Santos</title>
-    <link rel="icon" href="Image/engineer.ico" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="webthemez">
+<title>Marcos Santos</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body class="container-fluid body_section">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand brand-name" href="index.html">Marcos Santos</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link headerachor" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link headerachor" href="Education.html"
-                >Formações</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link headerachor" href="skill.html">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link headerachor" href="Project.html">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link headerachor" href="contact.html"
-                >Fale Comigo</a
-              >
-            </li>
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link rel="icon" href="assets/img/engineer.ico" />
+
+<!-- Custom CSS -->
+<link href="assets/css/styles.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/animate-custom.css" rel="stylesheet"> 
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body data-target="#navbar-main">
+<div id="navbar-main"> 
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+	 
+      <div class="navbar-header">
+	   <div class="pull-left logo">
+        <a class="" href="#home"><img src="assets/img/logo.png" /></a>
+       </div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="#home-section" class="smoothScroll">Home</a></li>
+          <li> <a href="#formacao" class="smoothScroll">Formações</a></li>		  
+          <li> <a href="#about" class="smoothScroll">Skills</a></li>
+          <li> <a href="#portfolio" class="smoothScroll">Projetos</a></li>
+          <li> <a href="#team" class="smoothScroll">Cursos</a></li>
+          <li> <a href="#contact" class="smoothScroll"> Fale comigo</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse --> 
+    </div>
+  </div>
+</div>
+
+<!-- ==== HEADERWRAP ==== -->
+<div id="home-section">
+  <div id="headerwrap" name="home">
+  </div>
+</div>
+<!-- /headerwrap --> 
+
+<div class="container">
+  <div class="row">
+    <h2 class="centered">Olá me chamo Marcos, é um prazer te conhecer <span class="wave">👋🏼</span></h2>
+    <hr>
+    <div class="col-lg-8 col-lg-offset-2">
+      <p class="large">
+        Sou desenvolvedor de software, brasileiro, 26 anos, apaixonado pelo
+        que faço, sempre com foco no usuário e nos resultados da emrpesa.
+      </p>
+    </div>
+    <div class="col-lg-4 callout"> <i class="fa fa-mobile fa-3x"></i>
+      <h3>MOBILE</h3>
+      <p>Desenvolvedor de aplicativos móveis, Android e IOs utilizando tecnologia híbrida com Dart e Flutter.</p>
+    </div>
+    <div class="col-lg-4 callout"> <i class="fa fa-desktop fa-3x"></i>
+      <h3>FRONTEND</h3>
+      <p>Desenvolvedor de sistemas frontend e websites usando tecnologias modernas como React-JS.</p>
+    </div>
+    <div class="col-lg-4 callout"> <i class="fa fa-cubes fa-3x"></i>
+      <h3>BACKEND</h3>
+      <p>Desenvolvedor de sistemas backend, utilizando Node-JS e os frameworks mais usados atualmente.</p>
+    </div>
+  </div>
+  <!-- row --> 
+</div>
+
+<!-- container --> 
+<section id="formacao">
+  <h2 class="centered">Formação</h2>
+  <hr>
+  <section class="hero-section section">  
+      <div class="container">
+        <p>Técnico em informática, com graduação em análise e desenvolvimento de sistemas, e cursando pós graduação em desenvolvimento para aplicativos móveis.</br>
+      </div>
+  </section>
+</section>  
+	
+<!-- ==== ABOUT ==== -->
+<div id="about" name="about">
+  <div class="container">
+    <div class="row white">
+      <h2 class="centered">Skills</h2>
+      <hr>
+      <div class="col-md-6"> <img class="img-responsive" src="assets/img/skills.png"> </div>
+      <div class="col-md-6">
+        <h3 class="centered">Hard Skills</h3>
+        <div>
+          <ul>
+            <div class="skills-divider">
+              <li>
+                <strong>Linguagens:</strong>
+                <ol>
+                  <li>JavaScript/TypeScript</li>
+                  <li>Dart</li>
+                  <li>PHP</li>
+                  <li>Python</li>
+                  <li>HTML5</li>
+                  <li>CSS/Sass</li>
+                </ol>
+              </li>
+              <li>
+                <strong>Frameworks:</strong>
+
+                <ol>
+                  <li>Flutter</li>
+                  <li>Vue-JS</li>
+                  <li>Adonis-JS</li>
+                  <li>Express-JS</li>
+                  <li>Laravel</li>
+                </ol>
+              </li>
+
+              <li>
+                <strong>Bancos de Dados:</strong>
+
+                <ol>
+                  <li>SQL</li>
+                  <li>PostgreSQL</li>
+                  <li>MySQL</li>
+                  <li>SQLite</li>
+                  <li>Redis</li>
+                </ol>
+              </li>
+            </div>
+
+            <div class="skills-divider">
+              <li>
+                <strong>Devops:</strong>
+                <ol>
+                  <li>Ferramentas AWS</li>
+                  <li>Servidores linux</li>
+                  <li>Docker</li>
+                  <li>CI/CD</li>
+                  <li>Play Console</li>
+                  <li>Deploy de aplicações</li>
+                </ol>
+              </li>
+              <li>
+                <strong>libs e Ferramentas:</strong>
+                <ol>
+                  <li>Node-JS</li>
+                  <li>React-JS</li>
+                  <li>Git, GitHub e GitFlow</li>
+                </ol>
+              </li>
+            </div>
           </ul>
         </div>
-      </nav>
-    </header>
-
-    <section id="Home">
-      <div class="row column1">
-        <div class="col-lg-6 col-md-6 first-image">
-          <img
-            class="boyimage"
-            src="Image/Programming.svg"
-            alt=""
-            width="650"
-          />
+        <h3 class="centered">Soft Skills</h3>
+        <p>Dinâmico e de fácil relacionamento interpessoal, sempre trabalhando em equipe, com agilidade na 
+          resolução dos problemas e de um aprendizado rápido, sempre em busca de novos conhecimentos para melhor atender 
+        as necessidade do projeto.</p>
+      </div>
+    </div>
+    <!-- row --> 
+  </div>
+</div>
+<!-- container --> 
+<!-- ==== PORTFOLIO ==== -->
+<div id="portfolio" name="portfolio">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">Projetos</h2>
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2 centered">
+        <p class="large">Alguns projetos que participei, contribuindo no código, com ideias, fluxos, etc.</p>
+      </div>
+    </div>
+    <!-- /row -->
+    <div class="container">
+      <div class="row"> 
+        
+        <!-- PORTFOLIO IMAGE 1 -->
+        <div class="col-md-4 ">
+          <div class="grid overlay">
+            <figure class="project-width"> <img class="img-responsive" src="assets/img/segunda_via.png" alt="">
+              <figcaption>
+                <h5>Impressão de boletos</h5>
+                <a data-toggle="modal" href="#myModal_1" class="btn btn-default">Detalhes</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-overlay --> 
+        </div> 
+        
+        <div class="modal fade" id="myModal_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Impressão de boletos</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="assets/img/segunda_via.png" alt=""></p>
+                <p>
+                  Esse é um projeto que desenvolvi junto com meus colegas de
+                  trabalho, onde é possível o cliente externo acessar o site, e
+                  informando seus dados de contrato ou CPF, fazer a emissão do seu
+                  boleto, o frontend é feito utitlizando o React e uma parte do
+                  backend feita com node usando o express e outra usando o ERP Protheus.
+                </p> 
+                <button class="btn btn-warning">
+                  <a href="https://servicos.moradadapaz.com.br/segundavia">Veja o projeto</a>
+                </button>
+              </div> 
+            </div>
+            <!-- /.modal-content --> 
+          </div>
+          <!-- /.modal-dialog --> 
         </div>
-        <div class="col-lg-6 section-1">
-          <h1 class="Hello">
-            Olá eu sou o Marcos, é um prazer te conhecer
-            <!-- Hi! I’m Marcos, it’s really nice to meet you! -->
-            <span class="wave">👋🏼</span>
-          </h1>
-          <p>
-            Sou um desenvolvedor brasileiro, tenho 25 anos, sou apaixonado pelo
-            que faço, sempre com foco no usuário e nos resultados da emrpesa,
-            com um foco de atuação em frontend e mobile.
-            <!-- I’m a brazilian developer, 25yo and I’m passionate about what I do.
-            I always focus on the user and company results, with emphasis on
-            frontend and mobile. -->
-          </p>
-          <div class="social_media_icon">
-            <a
-              class="btn"
-              href="https://www.linkedin.com/in/marcos-samuel-1710"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin" aria-hidden="true"></i>
-            </a>
-            <a class="btn" href="https://github.com/Marcos1710" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
+        <!-- /.modal --> 
+
+        <!-- PORTFOLIO IMAGE 2 -->
+        <div class="col-md-4">
+          <div class="grid overlay">
+            <figure class="project-width"> <img class="img-responsive" src="assets/img/wgm.png" alt="">
+              <figcaption>
+                <h5>Web GM</h5>
+                <a data-toggle="modal" href="#myModal_2" class="btn btn-default">Detalhes</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-overlay --> 
+        </div>
+
+        <div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Web GM</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="assets/img/wgm_2.png" alt=""></p>
+                <p>
+                  O WebGM é um sistema que desenvolvi junto com meus colegas de
+                  trabalho, ele é um sistema com a finalidade de uso interno dos colaboradores
+                  da empresa, nele é possível que cada colaborador faça login e acesse seu ambiente 
+                  de trabalho, Administrativo, Financeiro, Call Center entre outros, e em cada
+                  ambiente menus personalizados para atender as necessidades de cada setor.
+                </p> 
+                <button class="btn btn-warning">
+                  <a href="https://webgm.moradadapaz.com.br/signin">Veja o projeto</a>
+                </button>
+              </div> 
+            </div>
+            <!-- /.modal-content --> 
+          </div>
+          <!-- /.modal-dialog --> 
+        </div>
+        
+        <!-- PORTFOLIO IMAGE 3 -->
+        <div class="col-md-4">
+          <div class="grid overlay">
+            <figure class="project-width"> <img class="img-responsive" src="assets/img/escala_app.png" alt="">
+              <figcaption>
+                <h5>Escala APP</h5>
+                <a data-toggle="modal" href="#myModal_3" class="btn btn-default">Detalhes</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-overlay --> 
+        </div>
+
+        <div class="modal fade" id="myModal_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Escala APP</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="assets/img/escala_app_2.PNG" alt=""></p>
+                <p>
+                  O escala app, desenvolvi em parceria com a empresa Cout, ele
+                  tem a finalidade de gerenciar toda a escala dos profissionais
+                  de uma empresa que utilize essa aplicação, desenvolvido
+                  utilizando Vue-JS no frontend, e o Laravel no backend.
+                </p> 
+                <button class="btn btn-warning">
+                  <a href="https://escala-app.netlify.app/login">Veja o projeto</a>
+                </button>
+              </div> 
+            </div>
+            <!-- /.modal-content --> 
+          </div>
+          <!-- /.modal-dialog --> 
+        </div>
+        
+      </div>
+      <!-- /row --> 
+      
+      <!-- PORTFOLIO IMAGE 4 -->
+      <div class="row">
+        <div class="col-md-4 ">
+          <div class="grid overlay">
+            <figure class="project-width"> <img class="img-responsive" src="assets/img/ficha.png" alt="">
+              <figcaption>
+                <h5>Ficha Digital</h5>
+                <a data-toggle="modal" href="#myModal_4" class="btn btn-default">Detalhes</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-overlay --> 
+        </div>
+
+        <div class="modal fade" id="myModal_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Ficha Digital</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="assets/img/ficha.png" alt=""></p>
+                <p>
+                  Aplicação que contribuí com o desenvolvimento junto com
+                  antigos colegas de trabalho em uma empresa por onde passei no
+                  ano 2019, com objetivo de auxiliar redes hoteleiras, no
+                  gerenciamento dos check-ins e check-outs de seus hóspedes,
+                  agilizando esse processo, para uma melhor recepção dos
+                  cliente, projeto desenvolvido utilizando Vue-JS no frontend, e
+                  Node com Express no backend.
+                </p> 
+                <button class="btn btn-warning">
+                  <a href="https://fd.economysoftware.com.br/">Veja o projeto</a>
+                </button>
+              </div> 
+            </div>
+            <!-- /.modal-content --> 
+          </div>
+          <!-- /.modal-dialog --> 
+        </div>
+        
+        <!-- PORTFOLIO IMAGE 5 -->
+        <div class="col-md-4">
+          <div class="grid overlay">
+            <figure class="project-width"> <img class="img-responsive" src="assets/img/morada_app.png" alt="">
+              <figcaption>
+                <h5>Morada APP</h5>
+                <a data-toggle="modal" href="#myModal_5" class="btn btn-default">Detalhes</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-overlay --> 
+
+
+          <div class="modal fade" id="myModal_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Morada APP</h4>
+                </div>
+                <div class="modal-body">
+                  <p><img class="img-responsive" src="assets/img/morada_app_2.png" alt=""></p>
+                  <p>
+                    O Morada App é um aplicativo para as plataformas Android e IOs que desenvolvi junto com meus colegas de
+                    trabalho, para que clientes possam instalar e utilizar serviços oferecidos pela empresa.
+                  </p> 
+                  <div class="alert alert-warning" role="alert">
+                    Projeto ainda em desenvolvimento.
+                  </div>
+                  <!-- <button class="btn btn-warning">
+                    <a href="">Veja o projeto</a>
+                  </button> -->
+                </div> 
+              </div>
+              <!-- /.modal-content --> 
+            </div>
+            <!-- /.modal-dialog --> 
           </div>
         </div>
-        <div class="Image-boy col-lg-6">
-          <img class="boy" src="Image/Boy-image.png" alt="" />
-        </div>
-      </div>
-    </section>
-
-    <section id="Whatido">
-      <h1>
-        O que faço ?
-        <!-- What do I do? -->
-      </h1>
-      <div class="row feature-1">
-        <div class="col-lg-6 col-md-6 Feature-first-image">
-          <img
-            class="Feature-svg-image"
-            src="Image/whatsapp-interface-1660652_640.png"
-            alt=""
-          />
-        </div>
-        <div class="col-lg-6 col-md-6">
-          <h1 class="Feature-Heading">
-            Desenvolvedor Mobile
-            <!-- Mobile developer -->
-          </h1>
-          <ul class="dev-icon">
-            <li><i class="fab fa-android fa-5x" style="color: #679e63"></i></li>
-            <li><i class="fas fa-mobile fa-5x" style="color: #1572b6"></i></li>
-          </ul>
-          <div class="Data-Analytic">
-            <p class="Features-paragraph">
-              👉🏼 Desenvolvimento de aplicativos móveis com tecnologias híbridas.
-              <!-- mobile applications development with hybrid technology -->
-            </p>
-            <p class="Features-paragraph">
-              <!-- experience with technology such as Flutter and Dart and Kotlin -->
-              👉🏼 Experiência com tecnologias como: Dart com Flutter e Kotlin.
-            </p>
+        
+        <!-- PORTFOLIO IMAGE 6 -->
+        <div class="col-md-4">
+          <div class="grid overlay">
+            <figure class="project-width"> <img class="img-responsive" src="assets/img/simulador.jpeg" alt="">
+              <figcaption>
+                <h5>Simulador Essencial</h5>
+                <a data-toggle="modal" href="#myModal_6" class="btn btn-default">Detalhes</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
           </div>
+          <!-- /grid-overlay --> 
         </div>
-      </div>
-      <div class="row feature-2">
-        <div class="col-lg-6 col-md-6 feature-web">
-          <h1 class="Feature-Heading">
-            Desenvolvedor Web
-            <!-- Web developer -->
-          </h1>
-          <ul class="dev-icon">
-            <li><i class="fab fa-html5 fa-5x" style="color: #e34f26"></i></li>
-            <li>
-              <i class="fab fa-css3-alt fa-5x" style="color: #1572b6"></i>
-            </li>
-            <li>
-              <i class="fab fa-bootstrap fa-5x" style="color: #543b79"></i>
-            </li>
-            <li>
-              <i class="fab fa-js-square fa-5x" style="color: #f7df1e"></i>
-            </li>
-            <li><i class="fab fa-react fa-5x" style="color: #61dafb"></i></li>
-            <li><i class="fab fa-node fa-5x" style="color: #679e63"></i></li>
-            <li><i class="fab fa-figma fa-5x" style="color: #f24e1e"></i></li>
-          </ul>
 
-          <div class="Data-Analytic">
-            <p class="Features-paragraph">
-              <!-- frontend websites and systems development, using technologies
-              like React, Vue, HTML, CSS and JavaScript -->
-              👉🏼 Desenvolvimento de sistemas e websites frontend, utilizando
-              tecnologias como React, Vue, HTML, CSS e JavaScript.
-            </p>
-            <p class="Features-paragraph">
-              <!-- Website development with wordpress -->
-              👉🏼 Desenvolvimento de websites com Wordpress.
-            </p>
-            <p class="Features-paragraph">
-              <!-- Backend applications development for mobile and frontend usage,
-              using Node, PHP with Lavarel and Python. -->
-              👉🏼 Desenvolvimento de aplicações backend, para servir o frontend e
-              o mobile, usando Node, PHP com Laravel e Python.
-            </p>
+        <div class="modal fade" id="myModal_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Simulador Essencial</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="assets/img/simulador_2.jpeg" alt=""></p>
+                <p>
+                  Aplicativo Essencial, é um projeto que desenvolvi junto com meus colegas de trabalho, o aplicativo
+                  faz simulações de planos ofertados a clientes e futuros clientes, facilitando as novas aquisições 
+                  feitas pelo setor comercial, o aplicativo é desenvolvido utilizando Flutter.
+                </p> 
+                <button class="btn btn-warning">
+                  <a href="https://play.google.com/store/apps/details?id=br.com.grupo.morada.simulator_essential">Veja o projeto</a>
+                </button>
+              </div> 
+            </div>
+            <!-- /.modal-content --> 
           </div>
+          <!-- /.modal-dialog --> 
         </div>
-        <div class="col-lg-6 col-md-6 Feature-second-image">
-          <img class="Feature-svg-image" src="Image/website.svg" alt="" />
-        </div>
+        <!-- /col --> 
       </div>
-      <div class="row feature-3">
-        <div class="col-lg-6 col-md-6 Feature-third-image">
-          <img
-            class="Feature-svg-image-3"
-            src="Image/development-4536630_1280.png"
-            alt=""
-          />
-        </div>
-        <div class="col-lg-6 col-md-6 feature-coding">
-          <h1 class="Feature-Heading">
-            Estrutura de dados e algoritmos
-            <!-- Data structure and Algorithms -->
-          </h1>
-          <ul class="dev-icon">
-            <li></li>
-            <li><i class="fas fa-laptop-code fa-4x"></i></li>
+      <!-- /row --> 
+    </div>
+    <!-- /row --> 
+  </div>
+</div>
+<!-- /container --> 
 
-            <li>
-              <i class="fas fa-file-code fa-4x" style="color: #a8afcb"></i>
-            </li>
-          </ul>
-          <div class="Data-Analytic">
-            <p class="Features-paragraph">
-              <!-- Data structure and Algorithms knowledge to solve all kinds of
-              problems -->
-              👉🏼 Conhecimento em algoritmos e estrutura de dados para a
-              resolução dos mais diversos problemas
-            </p>
-          </div>
-        </div>
+<!-- ==== TEAM MEMBERS ==== -->
+<div id="team" name="team">
+  <div class="container">
+    <div class="row centered">
+      <h2 class="centered">Cursos</h2>
+      <hr>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/website-4396924_1280.jpg" height="120px" width="120px" alt="">
+        <h4><strong>Algoritmos e Estrutura de dados</strong></h4>
       </div>
-    </section>
-    <footer class="footer">
-      Se você deseja bater um papo comigo, não hesite em me enviar uma
-      mensagem.😉
-    </footer>
-  </body>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/seo-1616306_1280.png" height="120px" width="130px" alt="">
+        <h4><b>Dart e Flutter</b></h4>  
+      </div>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/frontend-4342425_1280.png" height="120px" width="120px" alt="">
+        <h4><b>Desenvolvimento web com Javascript e TypeScript</b></h4>  
+      </div>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/node-js-736399_1280.png" height="120px" width="120px" alt="">
+        <h4><b>Desenvolvimento de aplicações backend com Node-JS</b></h4>
+      </div>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/frontend-4342425_1280.png" height="120px" width="120px" alt="">
+        <h4><b>Programação web com React</b></h4>  
+      </div>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/php.jpg" height="120px" width="120px" alt="">
+        <h4><b>Programação web com PHP</b></h4>  
+      </div>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/sql.png" height="120px" width="120px" alt="">
+        <h4><b>SQL e Banco de dados</b></h4>  
+      </div>
+     
+    </div>
+  </div>
+  <!-- row --> 
+</div>
+<!-- container --> 
+
+<!-- ==== CONTACT ==== -->
+<div id="contact" name="contact">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">Fale comigo</h2>
+      <hr>
+    
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+	  <strong>Envie uma mensagem!</strong>
+        <p>Se deseja bater um papo comigo, não hesite em me enviar uma mensagem.</p>
+        <form action="https://formsubmit.co/marcossamuel17@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://marcos1710.github.io/tanks.html">
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required />
+            </div>
+            <div class="col-md-12 form-group">
+              <input class="form-control" id="email" type="email" name="email" placeholder="E-mail" type="email" required />
+            </div>
+			      <div class="col-md-12 form-group">
+              <textarea class="form-control" id="message" name="message" placeholder="Mensagem" rows="5" required></textarea>             
+              <button class="btn btn-lg pull-left" type="submit">Enviar</button>
+            </div>
+          </div>
+           
+        </form>
+     </form>
+        <!-- form --> 
+      </div>
+	  <div class="col-md-5">
+	         
+    <i class="fa fa-linkedin fa-2x"></i>
+    <br/> 
+    <strong>
+      <a class="link-data" href="https://www.linkedin.com/in/marcos-samuel-1710">linkedin.com/in/marcos-samuel-1710</a>
+    </strong>
+		
+    <br/> 
+    <br/> 
+	  <i class="fa fa-github fa-2x"></i>
+    <br/> 
+    <strong>
+      <a class="link-data" href="https://github.com/Marcos1710">github.com/Marcos1710</a>
+    </strong>
+       
+       
+	  </div>
+    </div>
+    <!-- row --> 
+    
+  </div>
+</div>
+<!-- container -->
+
+<div id="footerwrap">
+  <div class="container">
+    <span class="copyright centered">Copyright &copy; 2022. Marcos Santos</span>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script> 
+<script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+<script type="text/javascript" src="assets/js/custom-scripts.js"></script>
+<script src="https://use.fontawesome.com/26511afbbd.js"></script>
+</body>
 </html>

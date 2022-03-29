@@ -1,0 +1,10 @@
+body {
+    background: #0d0e0f;
+    min-height: 100vh;
+}
+
+h1, h3 {
+    color: #E89A2F;
+    text-align: center;
+    margin-top: 10%;
+}
